@@ -32,6 +32,7 @@ const App = () => {
             Render Timer for {currentSubject}
           </Text>
           <Countdown />
+          <Text>hello</Text>
         </View>
       )}
     </SafeAreaView>
