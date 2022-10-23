@@ -28,11 +28,9 @@ const App = () => {
         <Focus addSubject={setCurrentSubject} />
       ) : (
         <View>
-          <Text style={{color: 'white'}}>
-            Render Timer for {currentSubject}
-          </Text>
+          <Text style={{color: '#fff'}}>Render Timer for {currentSubject}</Text>
           <Countdown />
-          <Text>hello</Text>
+          <Text>helloo</Text>
         </View>
       )}
     </SafeAreaView>
